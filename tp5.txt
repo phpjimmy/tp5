@@ -1,0 +1,17 @@
+MVC
+MCA
+API:  
+请求数据: 请求方式: GET,POST
+$_GET: urlencoded
+$_POST = xml,json,urlencoded,自定义
+input('param.') = file_get_contents('php://input') -> 读取content-type(是否有能力解析)
+数据类型: xml,json,urlencoded(form表单的提交数据类型)
+验证:请求数据的完整性和有效性 (优先级不高)
+数据处理 :数据库连接,增删改查,
+返回数据类型:xml,json,其他
+返回数据:
+
+
+接口测试: 
+先测试GET(可以在浏览器中直接测试),再通过工具测试POST
+数据验证:等测试通过了再加验证规则
